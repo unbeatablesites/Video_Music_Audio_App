@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HomeController {
 	@Autowired
 	private MyResourceHttpRequestHandler handler;
-	private final static File MP4_FILE = new File("D:\\videofiles\\video1.mp4");
+	private final static File MP4_FILE = new File("/Users/frankuzoka/Desktop/123.mp4");
 
 	// supports byte-range requests
 	@GetMapping("/index")
