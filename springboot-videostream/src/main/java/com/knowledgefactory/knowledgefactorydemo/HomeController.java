@@ -35,10 +35,10 @@ public class HomeController {
 
 	/*
 	 * // does not support byte-range requests
-	 * 
+	 *
 	 * @GetMapping(path = "/plain", produces = "video/mp4") public
 	 * FileSystemResource plain() {
-	 * 
+	 *
 	 * return new FileSystemResource(MP4_FILE); }
 	 */
 
